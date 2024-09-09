@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Signup Page</title>
+</head>
+
+<body>
+    <div id="time-container">
+        <%= timeComponent %>
+    </div>
+    <form action="/users/signup" method="POST" id="signup">
+        <h2>Signup</h2>
+        <label for="signup-username">Username:</label>
+        <input type="text" id="signup-username" name="username" required>
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" name="password" required>
+        <button type="submit">Signup</button>
+    </form>
+</body>
+
+</html>
