@@ -1,7 +1,9 @@
 # SBA_318
 ******************************************************************************************************************************************************************************
-Project Title: User Management with Express and RESTful API
-Overview: This project is a user management web application built using Node.js and Express. The application allows users to sign up, log in, and access a personalized dashboard after successfully logging in. It demonstrates core concepts such as RESTful API design, middleware usage, templating with EJS, and interaction with server-side APIs via HTML forms.
+Project Title: 
+User Management with Express and RESTful API
+Overview: 
+This project is a user management web application built using Node.js and Express. The application allows users to sign up, log in, and access a personalized dashboard after successfully logging in. It demonstrates core concepts such as RESTful API design, middleware usage, templating with EJS, and interaction with server-side APIs via HTML forms.
 
 The project includes a user authentication system, where user credentials are stored in a JSON file. Upon successful login, users are redirected to the main dashboard. The project also features custom middleware for time logging and neatly designed forms using CSS for signup and login.
 
